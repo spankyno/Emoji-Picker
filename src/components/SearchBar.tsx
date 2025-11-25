@@ -15,7 +15,7 @@ export function SearchBar({ value, onChange }: SearchBarProps) {
         placeholder="Buscar emojis por nombre..."
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="pl-12 h-14 text-lg bg-card border-2 focus:border-primary transition-colors"
+        className="pl-12 h-14 text-lg bg-card text-card-foreground border-2 focus:border-primary transition-colors"
       />
     </div>
   );
